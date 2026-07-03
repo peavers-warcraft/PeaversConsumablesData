@@ -1,0 +1,13 @@
+## Interface: 120001, 120005, 120007
+## Title: |cff3abdf7Peavers|rConsumablesData
+## Notes: Best consumable, enchant and gem data for PeaversConsumables and others
+## Author: Peavers
+## Version: 0.0.1
+## IconTexture: Interface\AddOns\PeaversConsumablesData\src\Media\Icon.tga
+## Category-enUS: Peavers
+## X-Website: https://peavers.io
+## X-Source-Code: https://github.com/peavers-warcraft/PeaversConsumablesData
+
+Changelog.lua
+src\Data\WowCompareDB.lua
+src\Api\Api.lua

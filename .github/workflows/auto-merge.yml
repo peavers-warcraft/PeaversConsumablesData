@@ -1,0 +1,23 @@
+name: Auto-merge
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - master
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: auto-merge-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  auto-merge:
+    uses: peavers-warcraft/workflow-templates/.github/workflows/auto-merge.yml@master
+    with:
+      allowed_user: peavers
+      use_self_hosted: true
+    secrets: inherit

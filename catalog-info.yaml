@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PeaversConsumablesData
+  description: "A data library addon for World of Warcraft that provides best consumable, enchant and gem data per class and spec, sourced from wowcompare.io."
+  annotations:
+    github.com/project-slug: peavers-warcraft/PeaversConsumablesData
+spec:
+  type: library
+  lifecycle: production
+  owner: peavers-warcraft
