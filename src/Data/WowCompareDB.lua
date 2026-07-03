@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowCompareDB = addonTable.WowCompareDB or {}
 
 local consumablesData = {
-	updated = "2026-07-03 16:47:14",
+	updated = "2026-07-03 16:53:25",
 
 	[1] = {
 		specs = {
@@ -5168,6 +5168,150 @@ local consumablesData = {
 						itemName = "Blooming Feast",
 						quality = 3,
 						priority = 2,
+					},
+				},
+			},
+			[1480] = {
+				["enchants"] = {
+					{
+						slot = "Off Hand",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Helm",
+						itemID = 244007,
+						itemName = "Enchant Helm - Empowered Rune of Avoidance",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Chest",
+						itemID = 243977,
+						itemName = "Enchant Chest - Mark of the Worldsoul",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Shoulders",
+						itemID = 243991,
+						itemName = "Enchant Shoulders - Amirdrassil's Grace",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Legs",
+						itemID = 240133,
+						itemName = "Sunfire Silk Spellthread",
+						quality = 4,
+						priority = 1,
+					},
+					{
+						slot = "Boots",
+						itemID = 243953,
+						itemName = "Enchant Boots - Lynx's Dexterity",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Ring",
+						itemID = 243957,
+						itemName = "Enchant Ring - Eyes of the Eagle",
+						quality = 3,
+						priority = 1,
+					},
+				},
+				["gems"] = {
+					{
+						slot = "Diamond",
+						itemID = 240983,
+						itemName = "Indecipherable Eversong Diamond",
+						quality = 4,
+						priority = 1,
+					},
+					{
+						slot = "Other Gems",
+						itemID = 240900,
+						itemName = "Flawless Quick Amethyst",
+						quality = 3,
+						priority = 1,
+					},
+				},
+				["flasks"] = {
+					{
+						slot = "Flask",
+						itemID = 241322,
+						itemName = "Flask of the Magisters",
+						quality = 1,
+						priority = 1,
+					},
+					{
+						slot = "Flask",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
+						quality = 1,
+						priority = 2,
+					},
+				},
+				["potions"] = {
+					{
+						slot = "Combat Potion",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
+						quality = 1,
+						priority = 1,
+					},
+					{
+						slot = "Health Potion",
+						itemID = 241304,
+						itemName = "Silvermoon Health Potion",
+						quality = 1,
+						priority = 1,
+					},
+				},
+				["oils"] = {
+					{
+						slot = "Weapon Buff",
+						itemID = 243734,
+						itemName = "Thalassian Phoenix Oil",
+						quality = 2,
+						priority = 1,
+					},
+				},
+				["runes"] = {
+					{
+						slot = "Augment Rune",
+						itemID = 259085,
+						itemName = "Void-Touched Augment Rune",
+						quality = 3,
+						priority = 1,
+					},
+				},
+				["food"] = {
+					{
+						slot = "Food",
+						itemID = 255845,
+						itemName = "Silvermoon Parade",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Food",
+						itemID = 242275,
+						itemName = "Royal Roast",
+						quality = 3,
+						priority = 2,
+					},
+				},
+				["misc"] = {
+					{
+						slot = "Main Hand",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
+						quality = 3,
+						priority = 1,
 					},
 				},
 			},
