@@ -6,12 +6,13 @@ on:
     - cron: '0 2 * * *'
 
 permissions:
+  id-token: write
   contents: write
   actions: write
 
 jobs:
   cleanup-releases:
-    uses: peavers-warcraft/workflow-templates/.github/workflows/cleanup-releases.yml@master
+    uses: peavers-code/peavers-warcraft-workflows/.github/workflows/cleanup-releases.yml@master
     with:
       use_self_hosted: true
     secrets: inherit

@@ -8,10 +8,11 @@ on:
 permissions:
   contents: write
   actions: write
+  id-token: write
 
 jobs:
   release:
-    uses: peavers-warcraft/workflow-templates/.github/workflows/release.yml@master
+    uses: peavers-code/peavers-warcraft-workflows/.github/workflows/release.yml@master
     with:
       toc_file: PeaversConsumablesData.toc
       addon_name: PeaversConsumablesData
