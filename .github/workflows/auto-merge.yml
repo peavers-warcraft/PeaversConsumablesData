@@ -7,6 +7,7 @@ on:
       - master
 
 permissions:
+  id-token: write
   contents: write
   pull-requests: write
 
@@ -16,8 +17,8 @@ concurrency:
 
 jobs:
   auto-merge:
-    uses: peavers-warcraft/workflow-templates/.github/workflows/auto-merge.yml@master
+    uses: peavers-code/peavers-warcraft-workflows/.github/workflows/auto-merge.yml@master
     with:
-      allowed_user: peavers
+      allowed_user: "peavers-data-scrapers[bot]"
       use_self_hosted: true
     secrets: inherit
