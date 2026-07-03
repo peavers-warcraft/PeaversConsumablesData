@@ -6,6 +6,7 @@
 ## IconTexture: Interface\AddOns\PeaversConsumablesData\src\Media\Icon.tga
 ## Category-enUS: Peavers
 ## X-Website: https://peavers.io
+## X-Curse-Project-ID: 1596887
 ## X-Source-Code: https://github.com/peavers-warcraft/PeaversConsumablesData
 
 Changelog.lua

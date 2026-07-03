@@ -4,8 +4,7 @@
 iconType: DataRuneIcon
 
 # CurseForge project ID for download statistics
-# TODO: set once the CurseForge project is created
-curseForgeProjectId: 0
+curseForgeProjectId: 1596887
 
 # Tags for filtering and categorization
 tags:
