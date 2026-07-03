@@ -22,7 +22,7 @@ local PROVIDERS = {
 }
 
 -- Category keys in display order
-local CATEGORY_ORDER = { "enchants", "gems", "flasks", "potions", "oils", "runes", "food" }
+local CATEGORY_ORDER = { "enchants", "gems", "flasks", "potions", "oils", "runes", "food", "misc" }
 
 -- Category key to display name mapping
 local CATEGORY_NAMES = {
@@ -33,6 +33,7 @@ local CATEGORY_NAMES = {
 	oils = "Weapon Buffs",
 	runes = "Augment Runes",
 	food = "Food",
+	misc = "Other",
 }
 
 ---Helper function to validate inputs for API functions
