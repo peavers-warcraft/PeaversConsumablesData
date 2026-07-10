@@ -1,15 +1,16 @@
 # PeaversConsumablesData
 
-Best consumable, enchant and gem data per class and spec, sourced from Wowhead.
-
-[peavers.io](https://peavers.io) | [Report Issues](https://github.com/peavers-warcraft/PeaversConsumablesData/issues)
+A data library addon for World of Warcraft that provides best consumable, enchant and gem data per class and spec, sourced from Wowhead.
 
 ## Features
 
+<!-- peavers:features -->
 - Per class/spec best enchants, gems and consumables scraped from Wowhead class guides
 - Clean public API consumed by [PeaversConsumables](https://github.com/peavers-warcraft/PeaversConsumables) and available to any addon
 - No configuration, no saved variables — pure data provider
+<!-- /peavers:features -->
 
+<!-- peavers:custom -->
 ## API
 
 The addon exposes a global `PeaversConsumablesData.API`:
@@ -32,7 +33,12 @@ API.GetSources()             -- { "wowhead" }
 ```
 
 Each item row contains `slot`, `itemID`, `itemName`, `quality`, `priority`, `source` and `updated`.
+<!-- /peavers:custom -->
 
 ## Installation
 
-Installed automatically as a dependency of PeaversConsumables, or manually from CurseForge.
+This is a data library used by other Peavers addons and doesn't require direct user interaction. [PeaversUpdater](https://github.com/peavers-warcraft/PeaversUpdater/releases/latest) installs and updates it automatically alongside its parent addon, or download it directly from [CurseForge](https://www.curseforge.com/wow/addons/peaversconsumablesdata).
+
+---
+
+*Part of the [Peavers](https://peavers.io) addon collection · [Report an issue](https://github.com/peavers-warcraft/PeaversConsumablesData/issues) · [Support development on Patreon](https://www.patreon.com/Peavers)*
