@@ -2,7 +2,7 @@
 ## Title: |cff3abdf7Peavers|rConsumablesData
 ## Notes: Best consumable, enchant and gem data for PeaversConsumables and others
 ## Author: Peavers
-## Version: 0.0.32
+## Version: 0.0.33
 ## IconTexture: Interface\AddOns\PeaversConsumablesData\src\Media\Icon.tga
 ## Category-enUS: Peavers
 ## X-Website: https://peavers.io
