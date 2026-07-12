@@ -1,5 +1,7 @@
 # PeaversConsumablesData
 
+[![AddonSentry](https://api.addonsentry.io/api/public/repos/peavers-warcraft/PeaversConsumablesData/badge.svg)](https://addonsentry.io/dashboard/peavers-warcraft/PeaversConsumablesData)
+
 A data library addon for World of Warcraft that provides best consumable, enchant and gem data per class and spec, sourced from wowcompare.io.
 
 ## Features
