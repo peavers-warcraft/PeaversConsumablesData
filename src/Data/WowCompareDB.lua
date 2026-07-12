@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowCompareDB = addonTable.WowCompareDB or {}
 
 local consumablesData = {
-	updated = "2026-07-11 06:01:08",
+	updated = "2026-07-12 06:01:16",
 
 	[1] = {
 		specs = {
