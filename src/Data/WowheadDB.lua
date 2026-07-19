@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowheadDB = addonTable.WowheadDB or {}
 
 local consumablesData = {
-	updated = "2026-07-18 06:01:13",
+	updated = "2026-07-19 06:01:15",
 
 	[1] = {
 		specs = {
