@@ -7,7 +7,7 @@ A data library addon for World of Warcraft that provides best consumable, enchan
 ## Features
 
 <!-- peavers:features -->
-- Per class/spec best enchants, gems and consumables scraped from wowcompare.io class guides
+- Per class/spec best enchants, gems and consumables provided by wowcompare.io
 - Clean public API consumed by [PeaversConsumables](https://github.com/peavers-warcraft/PeaversConsumables) and available to any addon
 - No configuration, no saved variables — pure data provider
 <!-- /peavers:features -->
