@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowheadDB = addonTable.WowheadDB or {}
 
 local consumablesData = {
-	updated = "2026-07-28 06:01:10",
+	updated = "2026-07-29 06:01:10",
 
 	[1] = {
 		specs = {
@@ -970,8 +970,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
 						quality = 3,
 						priority = 1,
 					},
