@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowheadDB = addonTable.WowheadDB or {}
 
 local consumablesData = {
-	updated = "2026-07-29 06:01:10",
+	updated = "2026-07-30 06:01:15",
 
 	[1] = {
 		specs = {
@@ -4246,14 +4246,7 @@ local consumablesData = {
 				},
 				["potions"] = {
 					{
-						slot = "Mana Potion",
-						itemID = 241300,
-						itemName = "Lightfused Mana Potion",
-						quality = 1,
-						priority = 1,
-					},
-					{
-						slot = "Throughput Potion",
+						slot = "Combat Potion",
 						itemID = 241288,
 						itemName = "Potion of Recklessness",
 						quality = 1,
@@ -4261,8 +4254,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
