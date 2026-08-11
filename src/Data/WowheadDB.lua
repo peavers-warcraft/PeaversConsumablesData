@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowheadDB = addonTable.WowheadDB or {}
 
 local consumablesData = {
-	updated = "2026-08-10 06:01:10",
+	updated = "2026-08-11 06:01:10",
 
 	[1] = {
 		specs = {
@@ -10,15 +10,15 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Weapon",
-						itemID = 243973,
-						itemName = "Enchant Weapon - Berserker's Rage",
+						itemID = 244029,
+						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
 						quality = 3,
 						priority = 2,
 					},
@@ -94,8 +94,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Ring",
-						itemID = 243987,
-						itemName = "Enchant Ring - Nature's Fury",
+						itemID = 243957,
+						itemName = "Enchant Ring - Eyes of the Eagle",
 						quality = 3,
 						priority = 1,
 					},
@@ -110,15 +110,15 @@ local consumablesData = {
 				["gems"] = {
 					{
 						slot = "Diamond",
-						itemID = 240983,
-						itemName = "Indecipherable Eversong Diamond",
+						itemID = 240967,
+						itemName = "Powerful Eversong Diamond",
 						quality = 4,
 						priority = 1,
 					},
 					{
 						slot = "Diamond",
-						itemID = 240967,
-						itemName = "Powerful Eversong Diamond",
+						itemID = 240983,
+						itemName = "Indecipherable Eversong Diamond",
 						quality = 4,
 						priority = 2,
 					},
@@ -140,15 +140,15 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241326,
-						itemName = "Flask of the Shattered Sun",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Flask",
-						itemID = 241324,
-						itemName = "Flask of the Blood Knights",
+						itemID = 241326,
+						itemName = "Flask of the Shattered Sun",
 						quality = 1,
 						priority = 2,
 					},
@@ -156,22 +156,22 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Combat Potion",
-						itemID = 241288,
-						itemName = "Potion of Recklessness",
+						itemID = 241308,
+						itemName = "Light's Potential",
 						quality = 1,
 						priority = 2,
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -215,15 +215,15 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244031,
-						itemName = "Enchant Weapon - Arcane Mastery",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Weapon",
-						itemID = 243973,
-						itemName = "Enchant Weapon - Berserker's Rage",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
 						quality = 3,
 						priority = 2,
 					},
@@ -315,15 +315,15 @@ local consumablesData = {
 				["gems"] = {
 					{
 						slot = "Diamond",
-						itemID = 240983,
-						itemName = "Indecipherable Eversong Diamond",
+						itemID = 240967,
+						itemName = "Powerful Eversong Diamond",
 						quality = 4,
 						priority = 1,
 					},
 					{
 						slot = "Diamond",
-						itemID = 240967,
-						itemName = "Powerful Eversong Diamond",
+						itemID = 240983,
+						itemName = "Indecipherable Eversong Diamond",
 						quality = 4,
 						priority = 2,
 					},
@@ -345,15 +345,15 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241322,
-						itemName = "Flask of the Magisters",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Flask",
-						itemID = 241324,
-						itemName = "Flask of the Blood Knights",
+						itemID = 241322,
+						itemName = "Flask of the Magisters",
 						quality = 1,
 						priority = 2,
 					},
@@ -361,22 +361,22 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Combat Potion",
-						itemID = 241288,
-						itemName = "Potion of Recklessness",
+						itemID = 241308,
+						itemName = "Light's Potential",
 						quality = 1,
 						priority = 2,
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -642,8 +642,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -838,22 +838,22 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Head",
-						itemID = 243981,
-						itemName = "Enchant Helm - Empowered Blessing of Speed",
+						itemID = 244007,
+						itemName = "Enchant Helm - Empowered Rune of Avoidance",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Shoulders",
-						itemID = 243963,
-						itemName = "Enchant Shoulders - Akil'zon's Swiftness",
+						itemID = 243990,
+						itemName = "Enchant Shoulders - Amirdrassil's Grace",
 						quality = 3,
 						priority = 1,
 					},
@@ -873,8 +873,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Boots",
-						itemID = 244009,
-						itemName = "Enchant Boots - Farstrider's Hunt",
+						itemID = 243952,
+						itemName = "Enchant Boots - Lynx's Dexterity",
 						quality = 3,
 						priority = 1,
 					},
@@ -896,8 +896,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Other Gems",
-						itemID = 240898,
-						itemName = "Flawless Deadly Amethyst",
+						itemID = 240892,
+						itemName = "Flawless Masterful Peridot",
 						quality = 3,
 						priority = 1,
 					},
@@ -914,15 +914,15 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271883,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -1021,31 +1021,45 @@ local consumablesData = {
 				["gems"] = {
 					{
 						slot = "Gems",
-						itemID = 240983,
-						itemName = "Indecipherable Eversong Diamond",
+						itemID = 240967,
+						itemName = "Powerful Eversong Diamond",
 						quality = 4,
 						priority = 1,
-					},
-					{
-						slot = "Gems",
-						itemID = 240900,
-						itemName = "Flawless Quick Amethyst",
-						quality = 3,
-						priority = 2,
 					},
 					{
 						slot = "Gems",
 						itemID = 240898,
 						itemName = "Flawless Deadly Amethyst",
 						quality = 3,
+						priority = 2,
+					},
+					{
+						slot = "Gems",
+						itemID = 240918,
+						itemName = "Flawless Masterful Lapis",
+						quality = 3,
 						priority = 3,
+					},
+					{
+						slot = "Gems",
+						itemID = 240908,
+						itemName = "Flawless Masterful Garnet",
+						quality = 3,
+						priority = 4,
 					},
 					{
 						slot = "Gems",
 						itemID = 240892,
 						itemName = "Flawless Masterful Peridot",
 						quality = 3,
-						priority = 4,
+						priority = 5,
+					},
+					{
+						slot = "Gems",
+						itemID = 240900,
+						itemName = "Flawless Quick Amethyst",
+						quality = 3,
+						priority = 6,
 					},
 				},
 				["flasks"] = {
@@ -1066,9 +1080,16 @@ local consumablesData = {
 						priority = 1,
 					},
 					{
+						slot = "Combat Potion",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
+						quality = 1,
+						priority = 2,
+					},
+					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -1094,31 +1115,17 @@ local consumablesData = {
 				["food"] = {
 					{
 						slot = "Food",
-						itemID = 242272,
-						itemName = "Quel'dorei Medley",
+						itemID = 275266,
+						itemName = "Feast of Knowledge",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Food",
-						itemID = 255845,
-						itemName = "Silvermoon Parade",
+						itemID = 275258,
+						itemName = "Venom-Spiced Cutlets",
 						quality = 3,
 						priority = 2,
-					},
-					{
-						slot = "Food",
-						itemID = 255848,
-						itemName = "Flora Frenzy",
-						quality = 3,
-						priority = 3,
-					},
-					{
-						slot = "Food",
-						itemID = 242275,
-						itemName = "Royal Roast",
-						quality = 3,
-						priority = 4,
 					},
 				},
 			},
@@ -1365,15 +1372,15 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -1381,17 +1388,10 @@ local consumablesData = {
 				["oils"] = {
 					{
 						slot = "Weapon Buff",
-						itemID = 23529,
-						itemName = "Adamantite Sharpening Stone",
-						quality = 2,
-						priority = 1,
-					},
-					{
-						slot = "Weapon Buff",
 						itemID = 243734,
 						itemName = "Thalassian Phoenix Oil",
 						quality = 2,
-						priority = 2,
+						priority = 1,
 					},
 				},
 				["runes"] = {
@@ -1472,8 +1472,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Other Gems",
-						itemID = 240906,
-						itemName = "Flawless Quick Garnet",
+						itemID = 240892,
+						itemName = "Flawless Masterful Peridot",
 						quality = 3,
 						priority = 1,
 					},
@@ -1481,8 +1481,8 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241326,
-						itemName = "Flask of the Shattered Sun",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
 						quality = 1,
 						priority = 1,
 					},
@@ -1497,8 +1497,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -1648,8 +1648,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241305,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -1812,17 +1812,10 @@ local consumablesData = {
 				["food"] = {
 					{
 						slot = "Food",
-						itemID = 255845,
-						itemName = "Silvermoon Parade",
-						quality = 3,
+						itemID = 275267,
+						itemName = "Hearty Amani Cornucopia",
+						quality = 4,
 						priority = 1,
-					},
-					{
-						slot = "Food",
-						itemID = 242275,
-						itemName = "Royal Roast",
-						quality = 3,
-						priority = 2,
 					},
 				},
 				["misc"] = {
@@ -2296,8 +2289,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Other Gems",
-						itemID = 240906,
-						itemName = "Flawless Quick Garnet",
+						itemID = 240890,
+						itemName = "Flawless Deadly Peridot",
 						quality = 3,
 						priority = 1,
 					},
@@ -2327,16 +2320,9 @@ local consumablesData = {
 						priority = 1,
 					},
 					{
-						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
-						quality = 1,
-						priority = 2,
-					},
-					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -2656,8 +2642,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244031,
-						itemName = "Enchant Weapon - Arcane Mastery",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
 						quality = 3,
 						priority = 1,
 					},
@@ -2698,8 +2684,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Ring",
-						itemID = 243959,
-						itemName = "Enchant Ring - Zul'jin's Mastery",
+						itemID = 243957,
+						itemName = "Enchant Ring - Eyes of the Eagle",
 						quality = 3,
 						priority = 1,
 					},
@@ -2728,6 +2714,13 @@ local consumablesData = {
 						quality = 1,
 						priority = 1,
 					},
+					{
+						slot = "Flask",
+						itemID = 241326,
+						itemName = "Flask of the Shattered Sun",
+						quality = 1,
+						priority = 2,
+					},
 				},
 				["potions"] = {
 					{
@@ -2739,8 +2732,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271883,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -2777,8 +2770,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Off Hand",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
 						quality = 3,
 						priority = 1,
 					},
@@ -2798,8 +2791,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Bracers",
-						itemID = 263897,
-						itemName = "Radiant Jewelbinder",
+						itemID = 275707,
+						itemName = "Miasmic Jewelbinder",
 						quality = 4,
 						priority = 1,
 					},
@@ -2812,8 +2805,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Belt",
-						itemID = 263897,
-						itemName = "Radiant Jewelbinder",
+						itemID = 275707,
+						itemName = "Miasmic Jewelbinder",
 						quality = 4,
 						priority = 1,
 					},
@@ -2842,8 +2835,8 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241322,
-						itemName = "Flask of the Magisters",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
 						quality = 1,
 						priority = 1,
 					},
@@ -2851,15 +2844,15 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -2892,8 +2885,8 @@ local consumablesData = {
 				["misc"] = {
 					{
 						slot = "Main Hand",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
 						quality = 3,
 						priority = 1,
 					},
@@ -2945,8 +2938,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Ring",
-						itemID = 243987,
-						itemName = "Enchant Ring - Nature's Fury",
+						itemID = 243957,
+						itemName = "Enchant Ring - Eyes of the Eagle",
 						quality = 3,
 						priority = 1,
 					},
@@ -3021,8 +3014,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271883,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -3135,8 +3128,8 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241320,
-						itemName = "Flask of Thalassian Resistance",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
 						quality = 1,
 						priority = 1,
 					},
@@ -3151,8 +3144,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -3274,6 +3267,72 @@ local consumablesData = {
 						priority = 4,
 					},
 				},
+				["flasks"] = {
+					{
+						slot = "Flask",
+						itemID = 241322,
+						itemName = "Flask of the Magisters",
+						quality = 1,
+						priority = 1,
+					},
+					{
+						slot = "Flask",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
+						quality = 1,
+						priority = 2,
+					},
+				},
+				["potions"] = {
+					{
+						slot = "Combat Potion",
+						itemID = 241308,
+						itemName = "Light's Potential",
+						quality = 1,
+						priority = 1,
+					},
+					{
+						slot = "Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
+						quality = 1,
+						priority = 1,
+					},
+				},
+				["oils"] = {
+					{
+						slot = "Weapon Buff",
+						itemID = 243734,
+						itemName = "Thalassian Phoenix Oil",
+						quality = 2,
+						priority = 1,
+					},
+				},
+				["runes"] = {
+					{
+						slot = "Augment Rune",
+						itemID = 259085,
+						itemName = "Void-Touched Augment Rune",
+						quality = 3,
+						priority = 1,
+					},
+				},
+				["food"] = {
+					{
+						slot = "Food",
+						itemID = 255846,
+						itemName = "Harandar Celebration",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Food",
+						itemID = 242272,
+						itemName = "Quel'dorei Medley",
+						quality = 3,
+						priority = 2,
+					},
+				},
 			},
 			[64] = {
 				["enchants"] = {
@@ -3390,8 +3449,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -4140,8 +4199,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271883,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -4528,15 +4587,15 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241292,
-						itemName = "Draught of Rampant Abandon",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -4870,8 +4929,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 243971,
+						itemName = "Enchant Weapon - Jan'alai's Precision",
 						quality = 3,
 						priority = 1,
 					},
@@ -4921,8 +4980,8 @@ local consumablesData = {
 				["gems"] = {
 					{
 						slot = "Eversong Diamond",
-						itemID = 240983,
-						itemName = "Indecipherable Eversong Diamond",
+						itemID = 240967,
+						itemName = "Powerful Eversong Diamond",
 						quality = 4,
 						priority = 1,
 					},
@@ -4952,16 +5011,9 @@ local consumablesData = {
 						priority = 1,
 					},
 					{
-						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
-						quality = 1,
-						priority = 2,
-					},
-					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -5175,8 +5227,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Off Hand",
-						itemID = 243973,
-						itemName = "Enchant Weapon - Berserker's Rage",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
 						quality = 3,
 						priority = 1,
 					},
@@ -5233,10 +5285,17 @@ local consumablesData = {
 					},
 					{
 						slot = "Other Gems",
+						itemID = 240898,
+						itemName = "Flawless Deadly Amethyst",
+						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "Other Gems",
 						itemID = 240900,
 						itemName = "Flawless Quick Amethyst",
 						quality = 3,
-						priority = 1,
+						priority = 2,
 					},
 				},
 				["flasks"] = {
@@ -5249,8 +5308,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Flask",
-						itemID = 241324,
-						itemName = "Flask of the Blood Knights",
+						itemID = 241326,
+						itemName = "Flask of the Shattered Sun",
 						quality = 1,
 						priority = 2,
 					},
@@ -5265,8 +5324,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
@@ -5292,15 +5351,15 @@ local consumablesData = {
 				["food"] = {
 					{
 						slot = "Food",
-						itemID = 255845,
-						itemName = "Silvermoon Parade",
+						itemID = 275266,
+						itemName = "Feast of Knowledge",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Food",
-						itemID = 242275,
-						itemName = "Royal Roast",
+						itemID = 242274,
+						itemName = "Champion's Bento",
 						quality = 3,
 						priority = 2,
 					},
@@ -5593,8 +5652,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
 						quality = 3,
 						priority = 1,
 					},
@@ -5635,8 +5694,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Ring",
-						itemID = 243987,
-						itemName = "Enchant Ring - Nature's Fury",
+						itemID = 243959,
+						itemName = "Enchant Ring - Zul'jin's Mastery",
 						quality = 3,
 						priority = 1,
 					},
@@ -5651,8 +5710,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Other Gems",
-						itemID = 240906,
-						itemName = "Flawless Quick Garnet",
+						itemID = 240898,
+						itemName = "Flawless Deadly Amethyst",
 						quality = 3,
 						priority = 1,
 					},
@@ -5660,8 +5719,8 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241326,
-						itemName = "Flask of the Shattered Sun",
+						itemID = 241322,
+						itemName = "Flask of the Magisters",
 						quality = 1,
 						priority = 1,
 					},
@@ -5669,15 +5728,15 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
 					{
 						slot = "Health Potion",
-						itemID = 241304,
-						itemName = "Silvermoon Health Potion",
+						itemID = 271884,
+						itemName = "Concentrated Silvermoon Health Potion",
 						quality = 1,
 						priority = 1,
 					},
