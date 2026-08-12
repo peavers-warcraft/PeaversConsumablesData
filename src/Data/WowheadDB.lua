@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowheadDB = addonTable.WowheadDB or {}
 
 local consumablesData = {
-	updated = "2026-08-11 06:01:10",
+	updated = "2026-08-12 06:01:08",
 
 	[1] = {
 		specs = {
@@ -3176,13 +3176,6 @@ local consumablesData = {
 						quality = 3,
 						priority = 1,
 					},
-					{
-						slot = "Food",
-						itemID = 242299,
-						itemName = "Sanguithorn Tea",
-						quality = 2,
-						priority = 2,
-					},
 				},
 			},
 			[63] = {
@@ -3563,8 +3556,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Ring",
-						itemID = 244015,
-						itemName = "Enchant Ring - Silvermoon's Alacrity",
+						itemID = 243957,
+						itemName = "Enchant Ring - Eyes of the Eagle",
 						quality = 3,
 						priority = 1,
 					},
@@ -3602,8 +3595,8 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241322,
-						itemName = "Flask of the Magisters",
+						itemID = 241324,
+						itemName = "Flask of the Blood Knights",
 						quality = 1,
 						priority = 1,
 					},
@@ -4797,8 +4790,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
 						quality = 3,
 						priority = 1,
 					},
@@ -5524,8 +5517,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 244031,
+						itemName = "Enchant Weapon - Arcane Mastery",
 						quality = 3,
 						priority = 1,
 					},
