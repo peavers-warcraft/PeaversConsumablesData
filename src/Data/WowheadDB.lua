@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowheadDB = addonTable.WowheadDB or {}
 
 local consumablesData = {
-	updated = "2026-08-12 06:01:08",
+	updated = "2026-08-13 06:01:08",
 
 	[1] = {
 		specs = {
@@ -628,8 +628,8 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Stats Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
@@ -1406,8 +1406,8 @@ local consumablesData = {
 				["food"] = {
 					{
 						slot = "Food",
-						itemID = 255845,
-						itemName = "Silvermoon Parade",
+						itemID = 275265,
+						itemName = "Loa's Gathering",
 						quality = 3,
 						priority = 1,
 					},
@@ -1777,6 +1777,13 @@ local consumablesData = {
 						priority = 1,
 					},
 					{
+						slot = "Combat Potion",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
+						quality = 1,
+						priority = 2,
+					},
+					{
 						slot = "Health Potion",
 						itemID = 271884,
 						itemName = "Concentrated Silvermoon Health Potion",
@@ -1812,10 +1819,17 @@ local consumablesData = {
 				["food"] = {
 					{
 						slot = "Food",
-						itemID = 275267,
-						itemName = "Hearty Amani Cornucopia",
-						quality = 4,
+						itemID = 255845,
+						itemName = "Silvermoon Parade",
+						quality = 3,
 						priority = 1,
+					},
+					{
+						slot = "Food",
+						itemID = 242275,
+						itemName = "Royal Roast",
+						quality = 3,
+						priority = 2,
 					},
 				},
 				["misc"] = {
