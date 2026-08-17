@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowheadDB = addonTable.WowheadDB or {}
 
 local consumablesData = {
-	updated = "2026-08-16 06:01:10",
+	updated = "2026-08-17 06:01:09",
 
 	[1] = {
 		specs = {
@@ -669,24 +669,17 @@ local consumablesData = {
 				["food"] = {
 					{
 						slot = "Food",
-						itemID = 242747,
-						itemName = "Hearty Royal Roast",
+						itemID = 275264,
+						itemName = "Amani Cornucopia",
 						quality = 3,
 						priority = 1,
-					},
-					{
-						slot = "Food",
-						itemID = 266985,
-						itemName = "Hearty Silvermoon Parade",
-						quality = 4,
-						priority = 2,
 					},
 					{
 						slot = "Food",
 						itemID = 242299,
 						itemName = "Sanguithorn Tea",
 						quality = 2,
-						priority = 3,
+						priority = 2,
 					},
 				},
 				["misc"] = {
