@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-08-20 06:01:15",
+	updated = "2026-08-21 02:23:25",
 
 	[1] = {
 		specs = {
