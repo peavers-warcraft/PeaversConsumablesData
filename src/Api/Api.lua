@@ -11,13 +11,13 @@ local API = publicAPI.API
 -- Constants for error messages
 local ERR_INVALID_CLASS = "Invalid class ID provided"
 local ERR_INVALID_SPEC = "Invalid specialization ID provided"
-local ERR_INVALID_SOURCE = "Invalid source provided. Valid sources are: 'wowcompare'"
+local ERR_INVALID_SOURCE = "Invalid source provided. Valid sources are: 'wowhead'"
 local ERR_INVALID_CATEGORY = "Invalid category provided"
 
 -- Provider configuration
 local PROVIDERS = {
-	wowcompare = {
-		db = "WowCompareDB",
+	wowhead = {
+		db = "WowheadDB",
 	},
 }
 
@@ -67,7 +67,7 @@ end
 ---@param classID number The WoW class ID (1-13)
 ---@param specID number The specialization ID
 ---@param category string Category key ("enchants", "gems", "flasks", "potions", "food", "runes")
----@param source string|nil "wowcompare" (default: all sources)
+---@param source string|nil "wowhead" (default: all sources)
 ---@return table|nil items Array of consumable item tables
 ---@return string|nil errorMsg Error message if request fails
 function API.GetConsumables(classID, specID, category, source)
@@ -116,7 +116,7 @@ end
 ---Get all consumables for a spec across every category
 ---@param classID number The WoW class ID (1-13)
 ---@param specID number The specialization ID
----@param source string|nil "wowcompare" (default: all sources)
+---@param source string|nil "wowhead" (default: all sources)
 ---@return table|nil consumables Table of category key -> items array (only categories with data)
 ---@return string|nil errorMsg Error message if request fails
 function API.GetAllConsumables(classID, specID, source)
@@ -140,7 +140,7 @@ end
 ---Check whether any consumable data exists for a spec
 ---@param classID number The WoW class ID (1-13)
 ---@param specID number The specialization ID
----@param source string|nil "wowcompare" (default: all sources)
+---@param source string|nil "wowhead" (default: all sources)
 ---@return boolean hasData
 function API.HasData(classID, specID, source)
 	local consumables = API.GetAllConsumables(classID, specID, source)

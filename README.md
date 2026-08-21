@@ -2,12 +2,12 @@
 
 [![AddonSentry](https://addonsentry.io/api/public/repos/peavers-warcraft/PeaversConsumablesData/badge.svg)](https://addonsentry.io/dashboard/peavers-warcraft/PeaversConsumablesData)
 
-A data library addon for World of Warcraft that provides best consumable, enchant and gem data per class and spec, sourced from wowcompare.io.
+A data library addon for World of Warcraft that provides best consumable, enchant and gem data per class and spec, sourced from Wowhead.
 
 ## Features
 
 <!-- peavers:features -->
-- Per class/spec best enchants, gems and consumables provided by wowcompare.io
+- Per class/spec best enchants, gems and consumables provided by Wowhead
 - Clean public API consumed by [PeaversConsumables](https://github.com/peavers-warcraft/PeaversConsumables) and available to any addon
 - No configuration, no saved variables — pure data provider
 <!-- /peavers:features -->
@@ -31,7 +31,7 @@ API.HasData(5, 256)          -- boolean
 API.GetCategories()          -- ordered category keys
 API.GetCategoryName("gems")  -- "Gems"
 API.GetLastUpdate()          -- source -> timestamp
-API.GetSources()             -- { "wowcompare" }
+API.GetSources()             -- { "wowhead" }
 ```
 
 Each item row contains `slot`, `itemID`, `itemName`, `quality`, `priority`, `source` and `updated`.

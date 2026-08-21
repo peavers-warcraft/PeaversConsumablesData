@@ -10,5 +10,5 @@
 ## X-Source-Code: https://github.com/peavers-warcraft/PeaversConsumablesData
 
 Changelog.lua
-src\Data\WowCompareDB.lua
+src\Data\WowheadDB.lua
 src\Api\Api.lua
