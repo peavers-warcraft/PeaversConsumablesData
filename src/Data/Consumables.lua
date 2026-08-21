@@ -1,5 +1,5 @@
 local addonName, addonTable = ...
-addonTable.WowheadDB = addonTable.WowheadDB or {}
+addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
 	updated = "2026-08-20 06:01:15",
@@ -5773,4 +5773,4 @@ local consumablesData = {
 	},
 }
 
-addonTable.WowheadDB = consumablesData
+addonTable.ConsumablesData = consumablesData
