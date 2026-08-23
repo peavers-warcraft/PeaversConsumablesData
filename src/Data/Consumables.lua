@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-08-22 06:01:15",
+	updated = "2026-08-23 06:01:08",
 
 	[1] = {
 		specs = {
@@ -2777,8 +2777,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Off Hand",
-						itemID = 243973,
-						itemName = "Enchant Weapon - Berserker's Rage",
+						itemID = 273072,
+						itemName = "Enchant Weapon - Rite of the Hash'ey",
 						quality = 3,
 						priority = 1,
 					},
@@ -2842,8 +2842,8 @@ local consumablesData = {
 				["flasks"] = {
 					{
 						slot = "Flask",
-						itemID = 241324,
-						itemName = "Flask of the Blood Knights",
+						itemID = 241322,
+						itemName = "Flask of the Magisters",
 						quality = 1,
 						priority = 1,
 					},
@@ -2851,8 +2851,8 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 241288,
-						itemName = "Potion of Recklessness",
+						itemID = 271887,
+						itemName = "Liquid Luster",
 						quality = 1,
 						priority = 1,
 					},
@@ -2892,9 +2892,23 @@ local consumablesData = {
 				["misc"] = {
 					{
 						slot = "Main Hand",
-						itemID = 244031,
-						itemName = "Enchant Weapon - Arcane Mastery",
+						itemID = 273072,
+						itemName = "Enchant Weapon - Rite of the Hash'ey",
 						quality = 3,
+						priority = 1,
+					},
+					{
+						slot = "or &ndash; *",
+						itemID = 241326,
+						itemName = "Flask of the Shattered Sun",
+						quality = 1,
+						priority = 1,
+					},
+					{
+						slot = "AoE &ndash; *",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
+						quality = 1,
 						priority = 1,
 					},
 				},
