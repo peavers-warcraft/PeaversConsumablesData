@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-08-26 06:01:08",
+	updated = "2026-08-27 06:01:06",
 
 	[1] = {
 		specs = {
@@ -10,15 +10,15 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 243973,
-						itemName = "Enchant Weapon - Berserker's Rage",
+						itemID = 273072,
+						itemName = "Enchant Weapon - Rite of the Hash'ey",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
 						quality = 3,
 						priority = 2,
 					},
@@ -215,15 +215,15 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 243973,
-						itemName = "Enchant Weapon - Berserker's Rage",
+						itemID = 273072,
+						itemName = "Enchant Weapon - Rite of the Hash'ey",
 						quality = 3,
 						priority = 1,
 					},
 					{
 						slot = "Weapon",
-						itemID = 244031,
-						itemName = "Enchant Weapon - Arcane Mastery",
+						itemID = 243973,
+						itemName = "Enchant Weapon - Berserker's Rage",
 						quality = 3,
 						priority = 2,
 					},
