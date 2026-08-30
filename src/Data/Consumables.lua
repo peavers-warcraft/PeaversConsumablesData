@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-08-29 06:01:09",
+	updated = "2026-08-30 06:01:09",
 
 	[1] = {
 		specs = {
@@ -1486,6 +1486,20 @@ local consumablesData = {
 						quality = 1,
 						priority = 1,
 					},
+					{
+						slot = "Flask",
+						itemID = 241326,
+						itemName = "Flask of the Shattered Sun",
+						quality = 1,
+						priority = 2,
+					},
+					{
+						slot = "Flask",
+						itemID = 241322,
+						itemName = "Flask of the Magisters",
+						quality = 1,
+						priority = 3,
+					},
 				},
 				["potions"] = {
 					{
@@ -1494,6 +1508,20 @@ local consumablesData = {
 						itemName = "Liquid Luster",
 						quality = 1,
 						priority = 1,
+					},
+					{
+						slot = "Combat Potion",
+						itemID = 241308,
+						itemName = "Light's Potential",
+						quality = 1,
+						priority = 2,
+					},
+					{
+						slot = "Combat Potion",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
+						quality = 1,
+						priority = 3,
 					},
 					{
 						slot = "Health Potion",
@@ -1533,8 +1561,8 @@ local consumablesData = {
 				["misc"] = {
 					{
 						slot = "Both Weapons",
-						itemID = 243973,
-						itemName = "Enchant Weapon - Berserker's Rage",
+						itemID = 273072,
+						itemName = "Enchant Weapon - Rite of the Hash'ey",
 						quality = 3,
 						priority = 1,
 					},
@@ -4950,8 +4978,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 243971,
-						itemName = "Enchant Weapon - Jan'alai's Precision",
+						itemID = 273072,
+						itemName = "Enchant Weapon - Rite of the Hash'ey",
 						quality = 3,
 						priority = 1,
 					},
@@ -5001,8 +5029,8 @@ local consumablesData = {
 				["gems"] = {
 					{
 						slot = "Eversong Diamond",
-						itemID = 240967,
-						itemName = "Powerful Eversong Diamond",
+						itemID = 240983,
+						itemName = "Indecipherable Eversong Diamond",
 						quality = 4,
 						priority = 1,
 					},
