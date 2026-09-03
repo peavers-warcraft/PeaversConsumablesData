@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-09-02 06:01:08",
+	updated = "2026-09-03 06:01:08",
 
 	[1] = {
 		specs = {
@@ -3117,8 +3117,8 @@ local consumablesData = {
 				["enchants"] = {
 					{
 						slot = "Weapon",
-						itemID = 244029,
-						itemName = "Enchant Weapon - Acuity of the Ren'dorei",
+						itemID = 273071,
+						itemName = "Enchant Weapon - Rite of the Hash'ey",
 						quality = 3,
 						priority = 1,
 					},
