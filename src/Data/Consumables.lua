@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-09-23 06:01:07",
+	updated = "2026-09-24 06:01:09",
 
 	[1] = {
 		specs = {
@@ -5473,8 +5473,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Rings",
-						itemID = 243987,
-						itemName = "Enchant Ring - Nature's Fury",
+						itemID = 243957,
+						itemName = "Enchant Ring - Eyes of the Eagle",
 						quality = 3,
 						priority = 1,
 					},
