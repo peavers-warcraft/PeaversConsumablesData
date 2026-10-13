@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-10-12 06:01:14",
+	updated = "2026-10-13 06:01:10",
 
 	[1] = {
 		specs = {
@@ -2886,8 +2886,8 @@ local consumablesData = {
 				["potions"] = {
 					{
 						slot = "Combat Potion",
-						itemID = 271887,
-						itemName = "Liquid Luster",
+						itemID = 241288,
+						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
@@ -2936,13 +2936,6 @@ local consumablesData = {
 						slot = "or &ndash; *",
 						itemID = 241326,
 						itemName = "Flask of the Shattered Sun",
-						quality = 1,
-						priority = 1,
-					},
-					{
-						slot = "AoE &ndash; *",
-						itemID = 241288,
-						itemName = "Potion of Recklessness",
 						quality = 1,
 						priority = 1,
 					},
