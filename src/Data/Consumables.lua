@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ConsumablesData = addonTable.ConsumablesData or {}
 
 local consumablesData = {
-	updated = "2026-10-13 06:01:10",
+	updated = "2026-10-14 06:01:11",
 
 	[1] = {
 		specs = {
@@ -163,8 +163,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 271887,
+						itemName = "Liquid Luster",
 						quality = 1,
 						priority = 2,
 					},
@@ -368,8 +368,8 @@ local consumablesData = {
 					},
 					{
 						slot = "Combat Potion",
-						itemID = 241308,
-						itemName = "Light's Potential",
+						itemID = 271887,
+						itemName = "Liquid Luster",
 						quality = 1,
 						priority = 2,
 					},
